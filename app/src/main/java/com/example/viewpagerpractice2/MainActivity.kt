@@ -17,5 +17,8 @@ class MainActivity : AppCompatActivity() {
         mainViewPager.adapter = mViewPagerAdapter
 
 
+//        페이지가 많아지면 부드럽도록 지원하는 기능
+        mainViewPager.offscreenPageLimit = 3
+
     }
 }
